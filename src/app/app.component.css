@@ -1,0 +1,70 @@
+.imgaeView {
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.container {
+    display :flex;
+
+}
+.main { 
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+}
+.details {
+    line-height: 1.6;
+    color : white;
+    margin-top: 5%;
+}
+input {
+    display: block;
+    font-size: 18px;
+    padding: 15px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+button {
+    width:200px;
+    height: 50px;
+    background-color: darkcyan;
+    border-radius: 16px;
+}
+button:hover{
+    background-color:orange;
+    box-shadow:7px 5px ;
+}
+.inputButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+@media only screen and (max-width: 600px) {
+    .inputButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 3px;
+        width: 40%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    }
+}
